@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>File Upload</title>
+  <style>
+    /* Your CSS code here */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: black; /* Set the background color to black */
+      color: white; /* Set text color to white */
+      text-align: center; /* Center align the content */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    /* Add more styles as needed */
+  </style>
+</head>
+<body>
+    <img src="https://i.imgur.com/SY9b193.png" alt="Image">
+    <h1>Welcome to Mystery Files</h1>
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="file">
+    <button type="submit">Upload</button>
+  </form>
+  
+  <!-- Other content here -->
+</body>
+</html>
